@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Artystia </title>
+		<link rel="icon" href="logoartystia.ico">
+		<link rel="stylesheet" type="text/css" href="artystia.css">
+		<link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+		
+			<!-- NAVBAR --->
+			<nav class="navbar navbar-expand-sm bg-light">
+
+				  <!-- Links -->
+				  <ul class="navbar-nav">
+				  	<h1> Artystia </h1>
+
+				    <li class="nav-item">
+				      <a class="nav-link" href="index.html">Inicio</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="encargar.html">Tienda 2</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="contacto.html">Contacto</a>
+				    </li>
+				  </ul>
+			</nav>
+
+			<div class="container">
+				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="Pinturas/peces koi.jpeg" class="d-block w-100" alt="peces koi">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="Pinturas/totoro.jpeg" class="d-block w-100" alt="totoro">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="Pinturas/waving.jpg" class="d-block w-100" alt="waving">
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+			</div>
+
+
+			<form>
+
+			  	<div class="mb-3">
+
+					<label for="idE" class="form-label">Correo</label>
+
+					<input type="email" class="form-control" id="idE" aria-describedby="idEH">
+
+					<div id="idEH" class="form-text">Debe ser un correo válido.</div>
+
+				</div>
+
+					<div class="mb-3">
+
+					<label for="exampleInputPassword1" class="form-label">Password</label>
+
+					<input type="password" class="form-control" id="exampleInputPassword1">
+
+				</div>
+
+				<div class="mb-3 form-check">
+
+					<input type="checkbox" class="form-check-input" id="exampleCheck1">
+
+					<label class="form-check-label" for="exampleCheck1">Recordarme</label>
+
+				</div>
+
+				<button type="submit" class="btn btn-primary">Enviar</button>
+			</form>
+	</body> 
+</html>
