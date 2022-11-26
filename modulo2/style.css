@@ -1,0 +1,67 @@
+.navbar {
+    background-color: #344e4f;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-toggler-icon {
+    height: 70px;
+    width: 50px;
+}
+
+.col-lg {
+    
+   font-size: 20pt; 
+    display: flex;
+   align-items: center;
+    text-align: center;
+}
+
+.img-fluid {
+ border-radius: 150%;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.carousel-size{
+    height: 600px;
+    width: 800px;
+    margin: auto;
+}
+
+.carousel-inner{
+    height: 600px;
+    width: 800px;
+}
+.habilidades{
+    background-color: #f5f1eb;
+}
+
+.procentajes {
+    height: 200px;
+    margin: 10px;
+}
+
+.idiomas{
+    background-color: #f5f1eb;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    
+}
+
+.banderas {
+    height: 50px;
+    margin: 10px;
+}
+
+/*T_(\t@U1eJYLExkX*/
