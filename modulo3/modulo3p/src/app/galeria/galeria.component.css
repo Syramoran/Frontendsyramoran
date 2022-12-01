@@ -1,0 +1,10 @@
+.carousel-size{
+    height: 600px;
+    width: 800px;
+    margin: auto;
+}
+
+.carousel-inner{
+    height: 600px;
+    width: 800px;
+}

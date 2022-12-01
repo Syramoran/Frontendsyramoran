@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #344e4f;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-toggler-icon {
+    height: 70px;
+    width: 50px;
+}

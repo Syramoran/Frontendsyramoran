@@ -1,0 +1,13 @@
+.col-lg {
+    
+    font-size: 20pt; 
+     display: flex;
+    align-items: center;
+     text-align: center;
+ }
+ 
+ .img-fluid {
+  border-radius: 150%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
