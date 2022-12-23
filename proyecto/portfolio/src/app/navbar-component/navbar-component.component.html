@@ -1,0 +1,47 @@
+<!--- Barra de navegación ---> 
+<nav class="navbar navbar-expand-xl">
+
+    <!--- Contenedor -->
+    <div class="container-fluid ">
+
+        <!---Navbar brand ( LOGO )-->
+        <a class="navbar-brand" href="">
+            <img src="../../assets/images/Artystia-logo-beige.png" class="logoartystia" alt="Logo">
+        </a>
+
+        <!----Boton Responsive -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="#menu" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!---- Cosas de la barra de navegación-->
+        <div class="collapse navbar-collapse " id="menu">
+            <ul class="navbar-nav d-flex">
+                <li class="nav-item"> <!-- Sobre Mi-->
+                    <a href="/sobremi" class="nav-link">Sobre mí</a>
+                </li>
+                <li>
+                    <a href="/contacto" class="nav-link">Contacto</a>
+                </li>
+                 <li>
+                    <a href="/tienda" class="nav-link">Tienda</a>
+                </li>
+
+                <li><!-- Barra busqueda-->
+                        <form class="d-flex" role="search">
+                            <input class="form-control form-control-sm" type="text" placeholder="Buscar" aria-label=".form-control-sm example">
+                            <button class="btn btn-default me-2" type="search">Buscar
+                            </button>
+                        </form>
+                </li>
+
+                <li>
+                <a class="btn btn-light" href="/ingresar" role="button">Entrar</a> 
+                <a class="btn btn-light" href="/register" role="button">Registrarse</a>   
+                </li>
+
+            </ul>
+        </div> 
+        
+     </div>
+</nav>

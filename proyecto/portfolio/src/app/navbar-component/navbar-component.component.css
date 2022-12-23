@@ -1,0 +1,36 @@
+
+.navbar-toggler-icon {
+    height: 60px;
+    width: 40px;
+}
+.navbar{
+    background-color: #31312d;
+}
+.logoartystia {
+    width: 100px;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.btn-light{
+    margin: 6px;
+    
+}
+
+.nav-link {
+    color: beige;
+}
+
+.btn-default{
+   color: beige;
+}
+
+.form-control-sm{
+    background:none;
+}

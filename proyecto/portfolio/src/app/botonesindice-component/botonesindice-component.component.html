@@ -1,0 +1,32 @@
+
+<div class="container">
+    <div id="index" class="row scrollspy">
+        <div class="col-lg">
+            <button class="btn" onclick="location.href=`#scrollspy1`">Desarrollo Web</button>
+        </div>
+        <div class="col-lg">
+            <button class="btn" onclick="location.href=`#scrollspy2`"> Diseño Gráfico</button>
+        </div>
+        <div class="col-lg">
+            <button class="btn" onclick="location.href=`#scrollspy3`"> Artystia</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="container fluid">
+    <div data-bs-spy="scroll" data-bs-target="#index" data-bs-smooth-scroll="true" tabindex="0">
+        <div id="scrollspy1">
+            <app-desarrollowsection-component></app-desarrollowsection-component>
+        </div>
+
+        <div id="scrollspy2">
+            <app-disenosection-component></app-disenosection-component>
+        </div>
+
+        <div id="scrollspy3">
+            <app-artesection-component></app-artesection-component>
+        </div>
+    </div>
+</div>
+

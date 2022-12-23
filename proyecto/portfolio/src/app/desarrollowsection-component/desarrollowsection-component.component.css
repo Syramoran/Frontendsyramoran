@@ -1,0 +1,66 @@
+.container{
+    margin-top: 50px;
+}
+
+
+.img-fluid{
+    height: 350px;
+}
+
+.imagen-desarrollo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.argprogramalogo{
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+
+.accordion {
+   margin-bottom: 10px;
+   width: auto;
+}
+
+.accordion-button{
+    color: white;
+    background-color: #31312d;
+}
+.accordion-button:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+    
+.accordion-body{
+    background-color: rgb(224, 224, 224);
+}
+
+.circulo{
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+.porciento{
+    height: 200px;
+}
+
+.porcientodiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.label{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+.label p{
+    font-size: 1em;
+    margin: 0;
+    font-family: roboto mono;
+}
