@@ -20,6 +20,8 @@ import { IngresarComponent } from './paginas/ingresar/ingresar.component';
 import { SobremiComponent } from './paginas/sobremi/sobremi.component';
 import { TiendaComponent } from './paginas/tienda/tienda.component';
 import { HomeComponent } from './home/home.component';
+import { FormingresoComponent } from './paginas/ingresar/formingreso/formingreso.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -38,11 +40,13 @@ import { HomeComponent } from './home/home.component';
     IngresarComponent,
     SobremiComponent,
     TiendaComponent,
-    HomeComponent
+    HomeComponent,
+    FormingresoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClient,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
   ],
